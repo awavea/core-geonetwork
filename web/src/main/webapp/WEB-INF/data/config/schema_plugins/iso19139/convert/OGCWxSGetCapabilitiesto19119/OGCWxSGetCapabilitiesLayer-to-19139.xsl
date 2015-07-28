@@ -18,6 +18,8 @@
 	<xsl:param name="lang" />
 	<xsl:param name="topic" />
 
+	<xsl:variable name="layermap" select="document('layerlistmap.xml')"/> 
+
 
 	<!-- Max number of coordinate system to add
 	to the metadata record. Avoid to have too many CRS when 
@@ -60,6 +62,22 @@
 			</xsl:choose>
 		</xsl:variable>
 
+		<xsl:variable name="layermatch" select="$layermap/layers/layer[normalize-space()=$Name]"/>
+		<xsl:variable name="layerName">
+			<xsl:choose>
+				<xsl:when test="normalize-space($layermatch)">
+					<xsl:value-of select="concat('proxy:',substring-after($layermatch,':'))"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="$Name"/>
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+
+		<xsl:message>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS <xsl:value-of select="$layermatch"/>:<xsl:value-of select="$layermap/layers/@url"/>:<xsl:value-of select="$layerName"/></xsl:message>
+
+
+		<xsl:if test="normalize-space($layermatch)">
 
 		<MD_Metadata>
 
@@ -209,6 +227,9 @@
 									<linkage>
 										<URL>
 											<xsl:choose>
+												<xsl:when test="normalize-space($layermatch)">
+													<xsl:value-of select="$layermap/layers/@url"/>
+												</xsl:when>
 												<xsl:when test="$ows='true'">
 													<xsl:value-of
 														select="//ows:Operation[@name='GetFeature']/ows:DCP/ows:HTTP/ows:Get/@xlink:href" />
@@ -258,7 +279,14 @@
 									</protocol>
 									<name>
 										<gco:CharacterString>
-											<xsl:value-of select="$Name" />
+											<xsl:choose>
+												<xsl:when test="normalize-space($layermatch)">
+													<xsl:value-of select="$layerName"/>
+												</xsl:when>
+												<xsl:otherwise>
+													<xsl:value-of select="$Name" />
+												</xsl:otherwise>
+											</xsl:choose>
 										</gco:CharacterString>
 									</name>
 									<description>
@@ -312,6 +340,8 @@
 			<!--mdMaint-->
 
 		</MD_Metadata>
+
+		</xsl:if>
 	</xsl:template>
 
 	<!-- Create as many online resource as result format available in WFS server
