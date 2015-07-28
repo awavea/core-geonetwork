@@ -2,4 +2,5 @@
 	<import file="/WEB-INF/server-props-overrides.xml"/>
 	<import file="/WEB-INF/anzmest-config-overrides.xml"/>
 	<!-- <import file="/WEB-INF/anzmest-example-site-config-overrides.xml"/> -->
+	<import file="/WEB-INF/awavea-config-overrides.xml"/>
 </overrides>

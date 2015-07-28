@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<geonet>
+	<services package="org.fao.geonet">
+
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	<!-- VirtualCSW services                                               -->
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+		<service name="csw.multipleuse">
+			<class name=".services.main.CswDiscoveryDispatcher" >
+				<param name="filter" value="+any:proxy*"/>
+			</class>
+		</service>
+
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+		<service name="csw.wave">
+			<class name=".services.main.CswDiscoveryDispatcher" >
+				<param name="filter" value="+any:awavea*"/>
+			</class>
+		</service>
+
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+	</services>
+</geonet>
+
