@@ -74,10 +74,9 @@
 			</xsl:choose>
 		</xsl:variable>
 
-		<xsl:message>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS <xsl:value-of select="$layermatch"/>:<xsl:value-of select="$layermap/layers/@url"/>:<xsl:value-of select="$layerName"/></xsl:message>
+		<xsl:if test="normalize-space($layermatch)!=''">
 
-
-		<xsl:if test="normalize-space($layermatch)">
+		<xsl:message>LAYER FOUND:<xsl:value-of select="$Name"/></xsl:message>
 
 		<MD_Metadata>
 
@@ -413,12 +412,16 @@
 	<xsl:template mode="onlineResource" match="
 		//wms:Layer[wms:Name=$Name]/wms:MetadataURL|
 		//Layer[Name=$Name]/MetadataURL" priority="2">
-		
-		<xsl:call-template name="onlineResource">
-			<xsl:with-param name="name" select="concat($Name, ' (', name(.) ,')')"/>
-			<xsl:with-param name="url" select="wms:OnlineResource/@xlink:href|OnlineResource/@xlink:href"/>
-			<xsl:with-param name="protocol" select="wms:Format|Format"/>
-		</xsl:call-template>
+	
+		<xsl:variable name="layermatch" select="$layermap/layers/layer[normalize-space()=$Name]"/>
+		<xsl:if test="$layermatch">
+			<xsl:message>LAYER WITH METADATAURL <xsl:value-of select="$Name"/></xsl:message>
+			<xsl:call-template name="onlineResource">
+				<xsl:with-param name="name" select="concat($Name, ' (', name(.) ,')')"/>
+				<xsl:with-param name="url" select="wms:OnlineResource/@xlink:href|OnlineResource/@xlink:href"/>
+				<xsl:with-param name="protocol" select="wms:Format|Format"/>
+			</xsl:call-template>
+		</xsl:if>
 		
 	</xsl:template>
 	
