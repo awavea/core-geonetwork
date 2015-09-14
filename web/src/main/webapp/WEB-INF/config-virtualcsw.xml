@@ -9,7 +9,7 @@
 
 		<service name="csw.multipleuse">
 			<class name=".services.main.CswDiscoveryDispatcher" >
-				<param name="filter" value="+any:proxy*"/>
+				<param name="filter" value="+_cat:MultipleUseLayers"/>
 			</class>
 		</service>
 
@@ -17,7 +17,7 @@
 
 		<service name="csw.wave">
 			<class name=".services.main.CswDiscoveryDispatcher" >
-				<param name="filter" value="+any:awavea*"/>
+				<param name="filter" value="+_cat:WaveModelLayers*"/>
 			</class>
 		</service>
 
