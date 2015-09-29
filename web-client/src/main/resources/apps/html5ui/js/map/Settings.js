@@ -53,7 +53,8 @@ if (useOSMLayers) {
     ];
 } else {
     GeoNetwork.map.BACKGROUND_LAYERS = [];
-    GeoNetwork.map.CONTEXT = "../../maps/mapviewer.wmc";
+    GeoNetwork.map.CONTEXT = "../../maps/bright-earth.wmc";
+    //GeoNetwork.map.CONTEXT = "../../maps/mapviewer.wmc";
     //GeoNetwork.map.OWS = "../../maps/demis.xml";
 }
 
