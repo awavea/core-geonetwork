@@ -20,7 +20,11 @@
 
  <!-- if true then display the footer image in the html5ui interface -->
  <html5ui-footer>false</html5ui-footer>
- 
+
+ <iso19139.mcp>
+   <useExperimentalContacts/>
+ </iso19139.mcp>
+
  <!-- Classic interface using the xslt layout-templates -->
  <!-- <client type="redirect" widget="false" url="main.home" parameters="" stateId="" createParameter=""/> -->
  <!-- Widget client with tabbed interface (metadata documents open in tab) -->
