@@ -15,6 +15,7 @@ Other documents:
     :maxdepth: 2
 
     preface.rst
+		simple/index.rst
     quickstartguide/index.rst
     admin/index.rst
     managing_metadata/index.rst

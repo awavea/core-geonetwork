@@ -43,7 +43,7 @@ Pressing the search button (magnifying glass/search icon) will do the search and
 
   *Search results*
 
-Notice that there are also two filters that you can apply to the results of any search:
+Notice that there are also two checkbox filters that you can apply to the results of any search:
 
 *Web Services*: Ticking this checkbox will filter the results and return only those results that have a link to an OGC Web Map Service (WMS)
 
@@ -62,7 +62,7 @@ The list of icons beneath the summary for each record indicates the links that t
 
 .. figure:: images/screenshots/800x600/geonetwork-summarylinks.png
 
-*Yellow star:* This is a link to the metadata record that can be copied into the brower bookmarks.
+*Yellow star:* This is a link to the metadata record that can be copied into your browser bookmarks.
 
 *Globe:* If the record has a link to an OGC Web Map Service (WMS), then clicking on this icon will generate a kml file that can be opened in google earth if you have google earth available on your computer.
 
@@ -177,5 +177,5 @@ The examples above have shown how to specify individual advanced search fields. 
 More information
 --------------------------------------------------------------------------------
 
-Click on the 'Help' link in the banner of the GeoNetwork home page.
+Read the (somewhat dated) GeoNetwork users manual on http://geonetwork-opensource.org/manuals/2.10.4/eng/users/index.html
 
