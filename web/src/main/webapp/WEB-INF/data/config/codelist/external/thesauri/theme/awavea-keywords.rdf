@@ -39,42 +39,138 @@
    <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#2">
       <skos:prefLabel xml:lang="en">Wave Models | Wave Energy Flux</skos:prefLabel>
       <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:narrower rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#16"/>
+      <skos:narrower rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#17"/>
       <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#16">
+      <skos:prefLabel xml:lang="en">Wave Models | Wave Energy Flux | Averages</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#2"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#17">
+      <skos:prefLabel xml:lang="en">Wave Models | Wave Energy Flux | Statistics</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#2"/>
    </skos:Concept>
    <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#3">
       <skos:prefLabel xml:lang="en">Wave Models | Wave Height</skos:prefLabel>
       <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:narrower rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#18"/>
+      <skos:narrower rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#19"/>
       <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#18">
+      <skos:prefLabel xml:lang="en">Wave Models | Wave Height | Averages</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#3"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#19">
+      <skos:prefLabel xml:lang="en">Wave Models | Wave Height | Statistics</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#3"/>
    </skos:Concept>
    <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#4">
       <skos:prefLabel xml:lang="en">Wave Models | Wave Period</skos:prefLabel>
       <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:narrower rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#20"/>
+      <skos:narrower rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#21"/>
       <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#20">
+      <skos:prefLabel xml:lang="en">Wave Models | Wave Period | Averages</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#4"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#21">
+      <skos:prefLabel xml:lang="en">Wave Models | Wave Period | Statistics</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#4"/>
    </skos:Concept>
    <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#5">
       <skos:prefLabel xml:lang="en">Wave Models | Wave Direction</skos:prefLabel>
       <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:narrower rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#22"/>
+      <skos:narrower rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#23"/>
       <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#22">
+      <skos:prefLabel xml:lang="en">Wave Models | Wave Direction | Averages</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#5"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#23">
+      <skos:prefLabel xml:lang="en">Wave Models | Wave Direction | Statistics</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#5"/>
    </skos:Concept>
    <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#12">
       <skos:prefLabel xml:lang="en">Wave Models | Wave Spectral Width</skos:prefLabel>
       <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:narrower rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#24"/>
+      <skos:narrower rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#25"/>
       <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#24">
+      <skos:prefLabel xml:lang="en">Wave Models | Wave Spectral Width | Averages</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#12"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#25">
+      <skos:prefLabel xml:lang="en">Wave Models | Wave Spectral Width | Statistics</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#12"/>
    </skos:Concept>
    <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#13">
       <skos:prefLabel xml:lang="en">Wave Models | Wave Directionality Coefficient</skos:prefLabel>
       <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:narrower rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#26"/>
+      <skos:narrower rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#27"/>
       <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#26">
+      <skos:prefLabel xml:lang="en">Wave Models | Wave Directionality Coefficient | Averages</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#13"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#27">
+      <skos:prefLabel xml:lang="en">Wave Models | Wave Directionality Coefficient | Statistics</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#13"/>
    </skos:Concept>
    <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#14">
       <skos:prefLabel xml:lang="en">Wave Models | Maximum Directionally Resolved Wave Power</skos:prefLabel>
       <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:narrower rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#28"/>
+      <skos:narrower rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#29"/>
       <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#28">
+      <skos:prefLabel xml:lang="en">Wave Models | Maximum Directionally Resolved Wave Power | Averages</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#14"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#29">
+      <skos:prefLabel xml:lang="en">Wave Models | Maximum Directionally Resolved Wave Power | Statistics</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#14"/>
    </skos:Concept>
    <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#15">
       <skos:prefLabel xml:lang="en">Wave Models | Direction of Maximum Directionally Resolved Wave Power</skos:prefLabel>
       <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:narrower rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#30"/>
+      <skos:narrower rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#31"/>
       <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#30">
+      <skos:prefLabel xml:lang="en">Wave Models | Direction of Maximum Directionally Resolved Wave Power | Averages</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#15"/>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#31">
+      <skos:prefLabel xml:lang="en">Wave Models | Direction of Maximum Directionally Resolved Wave Power | Statistics</skos:prefLabel>
+      <skos:inScheme rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#1.0"/>
+      <skos:broader rdf:resource="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#15"/>
    </skos:Concept>
    <skos:Concept rdf:about="http://waveatlas.marine.csiro.au/thesaurus/awavea-keywords.rdf#6">
       <skos:prefLabel xml:lang="en">Multiple Use</skos:prefLabel>
