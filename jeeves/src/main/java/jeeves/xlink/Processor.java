@@ -18,7 +18,10 @@ import jeeves.server.sources.ServiceRequest.InputMethod;
 import jeeves.utils.Log;
 import jeeves.utils.Xml;
 
+import org.apache.commons.lang.StringUtils;
+
 import org.apache.jcs.access.exception.CacheException;
+
 import org.jdom.Attribute;
 import org.jdom.Element;
 import org.jdom.JDOMException;
@@ -234,7 +237,12 @@ public final class Processor {
 
 		Element res = null;
 		if (idSearch != null) {
-			String xpath = "*//*[@id='" + idSearch + "']";
+      String xpath = "";
+      if (idSearch.startsWith("xpath:")) {
+         xpath = StringUtils.substringAfter(idSearch, "xpath:");
+      } else {
+			   xpath = "*//*[@id='" + idSearch + "']";
+      }
 			try {
 				res = Xml.selectElement(remoteFragment, xpath);
 				if (res != null) {
