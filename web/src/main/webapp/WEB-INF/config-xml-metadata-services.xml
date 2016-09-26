@@ -62,6 +62,12 @@
 			<error sheet="xml-error.xsl" contentType="application/xml; charset=UTF-8"/> 
 		</service>
 
+		<service name="xml.metadata.fragment.get">
+			<class name=".services.metadata.ExtractFragment"/>
+			<error sheet="xml-error.xsl" contentType="application/xml; charset=UTF-8"/> 
+		</service>
+
+
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<!-- Status Services -->
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
