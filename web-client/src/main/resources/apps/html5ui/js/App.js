@@ -175,6 +175,7 @@ GeoNetwork.app = function() {
             xlinkOptions : {
                 CONTACT : true
             },
+						maxKeywords: GeoNetwork.Settings.maxKeywords,
             listeners : {
                 editorClosed : function() {
                     showSearch();
@@ -581,9 +582,7 @@ Ext.onReady(function() {
             });
 
             initShortcut();
-            if (Ext.getDom('E_any')) {
-                Ext.getDom('E_any').focus(true);
-            }
+
             // Restoring session (if any)
 
             Ext.state.Manager.getProvider().restore(location.href);
