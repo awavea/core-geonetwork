@@ -668,7 +668,8 @@ GeoNetwork.Lang.en = {
 		'bigMap': 'Open Map and hide search results',
     'createThesaurus': 'Create Thesaurus',
 	'Online data': 'Web Services',
-	'Data for download': 'Data Available'
+	'Data for download': 'Data Available',
+    'awaveas': 'AWAVEA Keywords'
 };
 
 OpenLayers.Util.extend(OpenLayers.Lang.en, GeoNetwork.Lang.en);

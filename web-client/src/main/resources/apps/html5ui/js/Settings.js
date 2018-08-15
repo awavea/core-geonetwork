@@ -55,12 +55,12 @@ GeoNetwork.Settings.mdStore = GeoNetwork.data.MetadataResultsFastStore;
 
 //List of facet to display. If none, the server configuration is use.
 GeoNetwork.Settings.facetListConfig = [{name: 'orgNames'}, 
+                                    {name: 'awaveas'},
                                     {name: 'keywords'}, 
                                     {name: 'licenses'}, 
                                     {name: 'types'},  
                                     {name: 'categories'},  
                                     {name: 'serviceTypes'}, 
-                                    {name: 'denominators'}, 
                                     {name: 'createDateYears'}];
 GeoNetwork.Settings.facetMaxItems = 7;
 

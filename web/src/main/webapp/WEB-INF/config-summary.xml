@@ -16,6 +16,7 @@
 <summary>
 	<def>
 		<hits>
+			<item name="awavea" plural="awaveas" indexKey="awavea" max="50"/>
 			<item name="keyword" plural="keywords" indexKey="keyword" max="15"/>
 			<item name="inspireTheme" plural="inspireThemes" indexKey="inspiretheme" sortBy="value" sortOrder="asc" max="35"/>
 			<item name="denominator" plural="denominators" indexKey="denominator" sortBy="numValue" sortOrder="desc"/>
@@ -35,6 +36,7 @@
 			<item name="keyword" plural="keywords" indexKey="keyword" max="100"/>
 		</results>
 		<results_with_summary>
+			<item name="awavea" plural="awaveas" indexKey="awavea" max="50"/>
 			<item name="keyword" plural="keywords" indexKey="keyword" max="15"/>
 			<item name="inspireTheme" plural="inspireThemes" indexKey="inspiretheme" sortBy="value" sortOrder="asc" max="35"/>
 			<item name="denominator" plural="denominators" indexKey="denominator" sortBy="value" sortOrder="asc" max="20"/>
